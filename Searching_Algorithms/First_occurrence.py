@@ -1,9 +1,9 @@
 ## Q] Print 1st occurrence in the list.
 
-r = (2, 5, 8, 10, 99, 105, 105, 105, 200)
+r = [2, 5, 8, 10, 99, 105, 105, 105, 200]
 key = 105
 
-def Searching_Data(x, key):
+def Searching_Data(r, key):
     li = 0
     hi = len(x) - 1
     first = -1
